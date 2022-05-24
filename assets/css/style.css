@@ -1,23 +1,32 @@
-
-
 /* # General */
-::-moz-selection { background: #ff00484b; }
-::selection { background: #Ff00494b; }
-        
+::-moz-selection {
+  background: #ff00484b;
+}
+
+::selection {
+  background: #Ff00494b;
+}
+
 body {
-  
+
   font-family: "Open Sans", sans-serif;
   background-color: #040404;
   color: #fff;
   position: relative;
   background: transparent;
-  -ms-overflow-style:none;
-  scrollbar-width:none;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
 }
-body::-webkit-scrollbar{display:none;}
-        .nav-link span,
-        .nav-link .fas{color:#fff}
-    
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+.nav-link span,
+.nav-link .fas {
+  color: #fff
+}
+
 body::before {
   content: "";
   position: fixed;
@@ -46,7 +55,13 @@ a:hover {
   text-decoration: none;
 }
 
-h1, h2, h3, h4, h5, h6 {
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: "Raleway", sans-serif;
 }
 
@@ -66,6 +81,7 @@ h1, h2, h3, h4, h5, h6 {
 #header * {
   transition: ease-in-out 0.3s;
 }
+
 #header img {
   font-size: 48px;
   margin: 0;
@@ -74,11 +90,13 @@ h1, h2, h3, h4, h5, h6 {
   /* font-weight: 700; */
 }
 
-#header img a, #header img a:hover {
+#header img a,
+#header img a:hover {
   color: #fff;
   line-height: 1;
   display: inline-block;
 }
+
 #header img {
   padding: 0;
   width: 45%;
@@ -121,6 +139,7 @@ h1, h2, h3, h4, h5, h6 {
 #header .social-links a:hover {
   background: #Ff0049;
 }
+
 /* @media (min-width:668px)and (max-width:994px){
   
 } */
@@ -129,14 +148,17 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 4vw;
     line-height: 30px;
   }
-  #header img{
+
+  #header img {
     display: flex;
     align-items: center;
-    width:60vw ;
+    width: 60vw;
   }
+
   #header .social-links {
     margin-top: 15px;
   }
+
   #header .container {
     display: flex;
     flex-direction: column;
@@ -154,7 +176,8 @@ h1, h2, h3, h4, h5, h6 {
   background: rgba(0, 0, 0, 0.9);
 }
 
-#header.header-top .social-links, #header.header-top h2 {
+#header.header-top .social-links,
+#header.header-top h2 {
   display: none;
 }
 
@@ -176,6 +199,7 @@ h1, h2, h3, h4, h5, h6 {
   #header.header-top {
     height: 60px;
   }
+
   #header.header-top img {
     /* font-size: 26px; */
     width: 15rem;
@@ -201,11 +225,12 @@ h1, h2, h3, h4, h5, h6 {
   position: relative;
 }
 
-.navbar li + li {
+.navbar li+li {
   margin-left: 30px;
 }
 
-.navbar a, .navbar a:focus {
+.navbar a,
+.navbar a:focus {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -218,7 +243,8 @@ h1, h2, h3, h4, h5, h6 {
   transition: 0.3s;
 }
 
-.navbar a i, .navbar a:focus i {
+.navbar a i,
+.navbar a:focus i {
   font-size: 12px;
   line-height: 0;
   margin-left: 5px;
@@ -237,12 +263,17 @@ h1, h2, h3, h4, h5, h6 {
   transition: all 0.3s ease-in-out 0s;
 }
 
-.navbar a:hover:before, .navbar li:hover > a:before, .navbar .active:before {
+.navbar a:hover:before,
+.navbar li:hover>a:before,
+.navbar .active:before {
   visibility: visible;
   width: 25px;
 }
 
-.navbar a:hover, .navbar .active, .navbar .active:focus, .navbar li:hover > a {
+.navbar a:hover,
+.navbar .active,
+.navbar .active:focus,
+.navbar li:hover>a {
   color: #fff;
 }
 
@@ -263,6 +294,7 @@ h1, h2, h3, h4, h5, h6 {
   .mobile-nav-toggle {
     display: block;
   }
+
   .navbar ul {
     display: none;
   }
@@ -304,7 +336,7 @@ h1, h2, h3, h4, h5, h6 {
   padding: 12px 20px;
 }
 
-.navbar-mobile li + li {
+.navbar-mobile li+li {
   margin: 0;
 }
 
@@ -341,6 +373,7 @@ section .container {
   section {
     top: 120px;
   }
+
   section.section-show {
     top: 80px;
   }
@@ -548,7 +581,8 @@ section .container {
   margin: 0 0 0 45px;
 }
 
-.testimonials .testimonial-item .quote-icon-left, .testimonials .testimonial-item .quote-icon-right {
+.testimonials .testimonial-item .quote-icon-left,
+.testimonials .testimonial-item .quote-icon-right {
   color: rgba(255, 255, 255, 0.25);
   font-size: 26px;
 }
@@ -660,7 +694,7 @@ section .container {
 .services .icon-box {
   text-align: center;
   background: rgba(204, 204, 204, 0.1);
-  padding:10vh 2vw ;
+  padding: 10vh 2vw;
   transition: all ease-in-out 0.3s;
   height: 90%;
   width: 100%;
@@ -731,7 +765,8 @@ section .container {
   background: #c00036;
 }
 
-.services .icon-box:hover h4 a, .services .icon-box:hover p {
+.services .icon-box:hover h4 a,
+.services .icon-box:hover p {
   color: #fff;
 }
 
@@ -766,7 +801,8 @@ section .container {
   border-radius: 4px;
 }
 
-.portfolio #portfolio-flters li:hover, .portfolio #portfolio-flters li.filter-active {
+.portfolio #portfolio-flters li:hover,
+.portfolio #portfolio-flters li.filter-active {
   background: #Ff0049;
 }
 
@@ -933,7 +969,7 @@ section .container {
   font-size: 15px;
 }
 
-.portfolio-details .portfolio-info ul li + li {
+.portfolio-details .portfolio-info ul li+li {
   margin-top: 10px;
 }
 
@@ -1030,7 +1066,7 @@ section .container {
   font-weight: 600;
 }
 
-.contact .php-email-form .error-message br + br {
+.contact .php-email-form .error-message br+br {
   margin-top: 25px;
 }
 
@@ -1063,7 +1099,8 @@ section .container {
   animation: animate-loading 1s linear infinite;
 }
 
-.contact .php-email-form input, .contact .php-email-form textarea {
+.contact .php-email-form input,
+.contact .php-email-form textarea {
   border-radius: 0;
   box-shadow: none;
   font-size: 14px;
@@ -1073,21 +1110,25 @@ section .container {
   color: #fff;
 }
 
-.contact .php-email-form input:focus, .contact .php-email-form textarea:focus {
+.contact .php-email-form input:focus,
+.contact .php-email-form textarea:focus {
   background-color: rgba(255, 255, 255, 0.11);
 }
 
-.contact .php-email-form input::-webkit-input-placeholder, .contact .php-email-form textarea::-webkit-input-placeholder {
+.contact .php-email-form input::-webkit-input-placeholder,
+.contact .php-email-form textarea::-webkit-input-placeholder {
   color: rgba(255, 255, 255, 0.3);
   opacity: 1;
 }
 
-.contact .php-email-form input::-moz-placeholder, .contact .php-email-form textarea::-moz-placeholder {
+.contact .php-email-form input::-moz-placeholder,
+.contact .php-email-form textarea::-moz-placeholder {
   color: rgba(255, 255, 255, 0.3);
   opacity: 1;
 }
 
-.contact .php-email-form input::placeholder, .contact .php-email-form textarea::placeholder {
+.contact .php-email-form input::placeholder,
+.contact .php-email-form textarea::placeholder {
   color: rgba(255, 255, 255, 0.3);
   opacity: 1;
 }
@@ -1117,6 +1158,7 @@ section .container {
   0% {
     transform: rotate(0deg);
   }
+
   100% {
     transform: rotate(360deg);
   }
@@ -1126,6 +1168,7 @@ section .container {
   0% {
     transform: rotate(0deg);
   }
+
   100% {
     transform: rotate(360deg);
   }
