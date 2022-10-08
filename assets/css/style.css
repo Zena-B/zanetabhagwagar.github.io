@@ -55,6 +55,20 @@ a:hover {
   text-decoration: none;
 }
 
+.lo {
+  height: 0.5px;
+  width: 80%;
+  margin: auto;
+  margin-bottom: 2vh;
+  background-color: #Ff0049;
+  border: none;
+}
+
+h3.ko {
+  text-align: center;
+  margin: auto;
+  margin-bottom: 2vh;
+}
 
 h1,
 h2,
